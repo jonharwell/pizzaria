@@ -1,0 +1,93 @@
+/* # = ID > . = class */
+.Image{
+    background:
+    linear-gradient(rgba(0,0,0,0.1),
+     rgba(0,0,0.1)), url(../assets/Martina.jpg);
+    
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    background-size: cover;
+    /* position: relative; */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    /* z-index: -1; */
+}
+
+#ImageText{
+    text-align: center;
+    background-color: yellow;
+    margin-top: -100px;
+}
+
+#name{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0;
+    font-size: 75px;
+}
+
+#tagLine{
+    color: blue;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#topMenu{
+    font-family: 'IBM Plex Sans', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.sectionTitle{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#special{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+.pizzaName{
+    text-align: left;
+}
+
+.description{
+    text-align: right;
+}
+
+.price{
+    text-align: right;
+}
+
+#deal{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#addy{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.content{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+    
+
+
