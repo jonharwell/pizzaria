@@ -1,70 +1,144 @@
 /* # = ID > . = class */
-.Image{
+#Image1{
     background:
     linear-gradient(rgba(0,0,0,0.1),
-     rgba(0,0,0.1)), url(../assets/Martina.jpg);
-    
+     rgba(0,0,0.2)), url(../assets/Martina.jpg);
     width: 100vw;
-    height: 50vh;
+    height: 75vh;
     margin: 0;
-    background-size: cover;
-    /* position: relative; */
+    background-size: contain;
+    /* position: relative;  */
     /* filter: blur(8px); */
     /* -webkit-filter: blur(8px); */
     /* z-index: -1; */
 }
 
+/* Pizzaria La DevLeague - Functional Pizza for All */
 #ImageText{
     text-align: center;
-    background-color: yellow;
-    margin-top: -100px;
+    margin-top: -400px;
 }
 
 #name{
-    color: black;
+    color: whitesmoke;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     margin: 0;
-    font-size: 75px;
+    font-size: 100px;
 }
 
 #tagLine{
-    color: blue;
+    color: whitesmoke;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px; 
+    /* if font-size changes, the rest of the text shifts. Why? */
 }
 
+/* 4 Guides */
 #topMenu{
+    /* color: red; WHY DIS NO WORK */
     font-family: 'IBM Plex Sans', sans-serif;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
-.guide:hover{
-    color: red;
-    text-decoration: underline;
+.guide{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 25px;
 }
 
-.sectionTitle{
+a:hover{
+    /* color: black; WHY DIS NO WORK */
+    text-decoration: none;
+}
+
+/* Today's Special */
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.Image2{
+    background-image: url(../assets/Martina_2.jpg);
+    background-size: cover;
+    flex-direction: row;
+    width: 50vw;
+    height: 50vh;
+    /* position: relative; */
+    margin: 0;
+    margin-top: 92px;
+}
+
+#today{
+    width: 50vw;
+    height: 50vh;
+    padding: center; 
+    margin-top: 92px;
+
+}
+
+.sectionTitle1{
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px; 
+    /* position: relative;
+    /* top: -300px; */
+    /* left: -150px; */ */
 }
 
 #special{
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
     font-size: 20px;
+    /* position: relative; 
+    top: -300px;
+    left: -250px;
+} */
+
+
+
+/* Menu */
+
+/* .content{
+    display: flex;
+    flex-direction: row;
+}
+ */
+
+.Image3{
+    background: url(../assets/Martina_4.jpg);
+    width: 50vw;
+    /* height: inherit; */
+    background-size: auto;
+    margin: 0;
+    flex-direction: row;
+    /* position: absolute; */
+    /* width: 50vw;
+    height: 50vh; */
+    /* left: 665px; */
+    /* margin: 0;
+    /* margin-top: -208px; */
+    /* text-align: left; */
+    /* background-size: 50vw;   */
+} 
+
+.pizza{
+    width: 50vw;
+    /* height: 150vh; */
+    margin: 0;
+    flex-direction: row;
+    position: relative;
 }
 
 #menu{
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
-
 .pizzaName{
     text-align: left;
 }
